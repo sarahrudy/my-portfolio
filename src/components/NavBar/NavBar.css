@@ -1,0 +1,9 @@
+.NavBar {
+  display: flex;
+  justify-content: right;
+}
+
+.linked-in, .git-hub {
+  width: 50px;
+  margin: 10px;
+}
