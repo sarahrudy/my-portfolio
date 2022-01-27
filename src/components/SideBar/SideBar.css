@@ -12,7 +12,7 @@
   left: 0;
 }
 
-.linked-in, .git-hub {
+.linked-in, .git-hub, .email, .resume, .turing {
   max-width: 50px;
   margin: 15px;
 }
