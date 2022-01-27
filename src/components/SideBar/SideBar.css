@@ -5,6 +5,7 @@
   padding-top: 50px;
   background-color: #474e609A;
   width: 10%;
+  min-width: 80px;
   height: 100%;
   position: fixed;
   z-index: 1;
@@ -15,4 +16,21 @@
 .linked-in, .git-hub, .email, .resume, .turing {
   max-width: 50px;
   margin: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .SideBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    background-color: #474e609A;
+    width: 100%;
+    min-width: 80px;
+    height: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
 }

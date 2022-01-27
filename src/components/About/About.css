@@ -1,15 +1,51 @@
 .About {
   padding-left: 15%;
+  padding-right: 5%;
   padding-top: 10%;
+  position: relative;
+  font-family: 'Julius Sans One', sans-serif;
+  min-width: 400px;
 }
 
 .About > h1 {
-  font-family: 'Julius Sans One';
-  font-size: 80px;
-  padding-bottom: 50px;
+  font-size: 70px;
+  letter-spacing: 3px;
+  color: #c6cfcd;
+}
+
+.About > h2 {
+  font-size: 50px;
+  color: #e98d48;
+  padding-bottom: 15px;
 }
 
 .About > p {
-  font-family: 'Archivo Narrow';
-  font-size: 40px;
+  font-size: 30px;
+  padding-bottom: 15px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 400px) {
+  .About {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .About > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 60px;
+  }
+
+  .About > h2 {
+    font-size: 50px;
+  }
+
+  .About > p {
+    font-size: 30px;
+  }
 }
