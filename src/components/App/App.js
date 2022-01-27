@@ -1,12 +1,12 @@
 import './App.css'
-import NavBar from '../NavBar/NavBar'
+import SideBar from '../SideBar/SideBar'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 
 const App = () => {
   return (
     <div className="App">
-      <NavBar />
+      <SideBar />
       <About />
       <Projects />
     </div>

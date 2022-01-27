@@ -2,12 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #f6faf9;
 }
 
 body,
 html {
   width: 100%;
+  background-color: #313745;
+  /* background: linear-gradient(0deg, rgba(199, 211, 227, 0.1), rgba(199, 211, 227, 0.1)),
+  url('../../images/city-fog.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
+
 
 /* .App-logo {
   height: 40vmin;
