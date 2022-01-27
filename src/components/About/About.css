@@ -1,0 +1,14 @@
+.About {
+  padding-left: 15%;
+  padding-top: 10%;
+}
+
+.About > h1 {
+  font-family: 'Julius Sans One';
+  font-size: 80px;
+}
+
+.About > p {
+  font-family: 'Archivo Narrow';
+  font-size: 40px;
+}
