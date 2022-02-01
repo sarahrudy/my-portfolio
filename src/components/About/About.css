@@ -5,24 +5,58 @@
   position: relative;
   font-family: 'Julius Sans One', sans-serif;
   min-width: 400px;
+  height: 100vh;
 }
 
 .About > h1 {
-  font-size: 70px;
+  font-size: 100px;
   letter-spacing: 3px;
   color: #c6cfcd;
 }
 
 .About > h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: #e98d48;
   padding-bottom: 15px;
 }
 
 .About > p {
   font-size: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   font-family: 'Libre Baskerville', serif;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-container > h3 {
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.scroll-container > img {
+  height: 50px;
+  margin: 30px;
+  -webkit-animation: scrolling 2s ease infinite;
+  -moz-animation: scrolling 2s ease infinite;
+  -o-animation: scrolling 2s ease infinite;
+  animation: scrolling 2s ease infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 @media screen and (max-width: 400px) {

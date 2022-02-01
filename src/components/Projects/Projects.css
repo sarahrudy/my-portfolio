@@ -2,8 +2,18 @@
   padding-left: 15%;
 }
 
+.Projects > h1 {
+  font-family: 'Julius Sans One';
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
 hr {
-  width: 80px;
+  width: 100px;
+}
+
+p {
+  font-size: 100px;
 }
 
 @media screen and (max-width: 400px) {
