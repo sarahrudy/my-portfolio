@@ -3,7 +3,7 @@ import linkedIn from '../../images/linkedin.png'
 import gitHub from '../../images/github.png'
 import gmail from '../../images/gmail.png'
 import resumeLogo from '../../images/resumeLogo.png'
-import resume from '../../images/sarah-rudy-resume.png'
+import resume from '../../images/sarah-rudy-resume.jpg'
 
 const SideBar = () => {
   return (
